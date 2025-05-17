@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт про мене</title>
+
+    <style>
+      .chess {
+        margin: 10px;
+        border: 10px black solid;
+        border-radius: 10px;
+        width: 160px;
+        height: 160px;
+      }
+      .chess tr:nth-child(odd) td:nth-child(even) {
+        background-color: black;
+        color: black;
+      }
+      .chess tr:nth-child(even) td:nth-child(odd) {
+        background-color: black;
+        color: black;
+      }
+      .chess tr:nth-child(odd) td:nth-child(odd) {
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+      }
+      .chess tr:nth-child(even) td:nth-child(even) {
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+      }
+      .link {
+        background-color: rgb(189, 157, 108);
+        color: rgb(113, 67, 8);
+        border: 2px solid rgb(113, 67, 8);
+        border-radius: 5px;
+      }
+      .small_title {
+        border-bottom: 2px solid rgb(113, 67, 8);
+        text-align: center;
+        background-color: rgb(189, 157, 108);
+        color: rgb(113, 67, 8);
+      }
+      .table tr:nth-child(1) {
+        color: brown;
+      }
+      .table tr:nth-child(2) {
+        background-color: rgb(131, 88, 33);
+      }
+      .table tr:nth-child(3) {
+        background-color: rgb(165, 117, 54);
+      }
+      .table tr:nth-child(4) {
+        background-color: rgb(212, 162, 97);
+      }
+      .table {
+        background-color: rgb(214, 165, 99);
+        color: white;
+      }
+      .list {
+        background-color: rgb(183, 253, 113);
+      }
+      li:nth-child(even) {
+        background-color: rgb(215, 255, 175);
+      }
+      .discription {
+        font-size: 25px;
+        background-color: rgb(189, 157, 108);
+        color: rgb(113, 67, 8) !important;
+      }
+      .image {
+        border-radius: 10px;
+        border: 6px black dashed;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 400px;
+      }
+      body {
+        background-color: antiquewhite;
+      }
+      .name {
+        background-color: white;
+        border: 2px black dotted;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="name">Залуський Максим</h1>
+
+    <img
+      class="image"
+      src="зображення_viber_2024-02-01_21-39-59-594.jpg"
+      alt="Моя фотографія"
+    />
+
+    <p style="color: aqua" class="discription">
+      Вище цього параграфа моя фотографія. Вона була зроблена в Дрогобичі коли я
+      гуляв з сім'єю. Тут стався цікавий випадок коли голуби чогось показилися і
+      почали переслідувати мого брата. Це було весело
+    </p>
+
+    <ul class="list">
+      <li>Програмуваняя</li>
+      <li>Займаня спортом</li>
+      <li>Велоспорт</li>
+      <li>Навчаня</li>
+      <li>Карате</li>
+    </ul>
+
+    <h4 class="small_title">Улюблині речі</h4>
+
+    <table class="table" border="5px">
+      <tr>
+        <th>Ігри</th>
+        <th>Фільми</th>
+        <th>Продукти</th>
+      </tr>
+      <tr>
+        <td>Масс Еффект</td>
+        <td>Аватар</td>
+        <td>Морозиво</td>
+      </tr>
+      <tr>
+        <td>Майнкрафт</td>
+        <td>Інтерстелер</td>
+        <td>Банани</td>
+      </tr>
+      <tr>
+        <td>Скайрим</td>
+        <td>Титанік</td>
+        <td>Яблука</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <a class="link" href="https://www.google.com.ua/?hl=uk"
+      >Посиланя на Google</a
+    >
+
+    <table class="chess">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+.zero_page {
+  width: 98.932vw;
+  background-image: url("img/coffee-beans-top-view-white-background-space-text 1.png");
+  height: 729px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.zero_page_text_header {
+  font-family: ZCOOL XiaoWei;
+  font-size: 65px;
+  text-align: center;
+}
+.zero_page_text_normalText {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: Open Sans;
+  line-height: 26px;
+  letter-spacing: 40%;
+  text-align: center;
+  width: 671px;
+  font-size: 16px;
+}
+.zero_page_button {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  width: 137px;
+  height: 37px;
+  color: white;
+  background-color: #232020;
+  border: none;
+}
+.first_page {
+  display: flex;
+  height: 674px;
+  background-color: white;
+}
+.first_page_left {
+  height: 337px;
+  width: 677px;
+  margin: 170px 54px 0px 165px;
+}
+.header1 {
+  font-family: ZCOOL XiaoWei;
+  font-size: 55px;
+  color: #1c1a1a;
+  font-weight: 400;
+}
+.text1 {
+  font-size: 16px;
+  color: #6f6f6f;
+}
+.text2 {
+  color: #141313;
+  font-size: 16px;
+}
+.buttonDiscover {
+  font-family: Open Sans;
+  font-size: 16px;
+  width: 137px;
+  height: 37px;
+  color: white;
+  background-color: #232020;
+  border: none;
+  margin-top: 33px;
+}
+.second_page {
+  background-color: #f6f2ee;
+  height: 835px;
+  padding: 0px 165px;
+}
+.header_div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  margin-top: 91px;
+  align-items: center;
+}
+.header2 {
+  font-family: ZCOOL XiaoWei;
+  font-size: 55px;
+  font-weight: 400;
+}
+.header_div_button {
+  font-family: Open Sans;
+  width: 221px;
+  height: 52px;
+  color: white;
+  background-color: #232020;
+  border: none;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 350px;
+  height: 554px;
+  background-color: white;
+}
+.card_img {
+  padding: 23px;
+}
+.card_text {
+  margin-left: 23px;
+}
+.second_page_button {
+  font-family: Open Sans;
+  color: white;
+  background-color: #232020;
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 94px;
+  padding: 7px 22px 6px 22px;
+}
+.third_page {
+  background-color: #f6f2ee;
+  padding: 0px 165px;
+}
+.third_page_header {
+  text-align: center;
+  font-family: ZCOOL XiaoWei;
+  font-size: 55px;
+  line-height: 65px;
+  margin-bottom: 31px;
+}
+.third_page_textImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.third_page_textImg_text {
+  width: 762px;
+  font-size: 20px;
+  color: #5c5c5c;
+  margin-top: 0px;
+}
+.third_page_foto {
+  margin-top: 29px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+.third_page_name {
+  font-size: 16px;
+  text-align: center;
+  font-family: ZCOOL XiaoWei;
+  margin-top: 8px;
+}
+.fourth_page {
+  padding: 0px 165px;
+  padding-top: 87px;
+  display: flex;
+  background-color: #f6f2ee;
+  padding-bottom: 94px;
+}
+.fourth_page_map {
+  width: 587px;
+}
+.fourth_page_block {
+  padding: 42px 80px 42px 82px;
+  width: 100%;
+  background-color: white;
+}
+.fourth_page_block_title {
+  color: #d48a5c;
+  text-align: center;
+}
+.fourth_page_block_header {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 21px;
+  font-family: ZCOOL XiaoWei;
+  font-size: 29px;
+}
+.fourth_page_block_input {
+  display: flex;
+  background-color: #f6f2ee;
+  justify-content: space-between;
+  color: #5c5c5c;
+  padding: 13px 18px 14px 18px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.fourth_page_block_button {
+  font-family: Open Sans;
+  color: white;
+  background-color: #232020;
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 21px;
+  padding: 7px 22px 6px 22px;
+}
+.fifth_page {
+  padding: 0px 165px;
+  background-color: #f6f2ee;
+}
+.fifth_page_button{
+  font-family: Open Sans;
+  color: white;
+  background-color: #232020;
+  border: none;
+  display: block;
+  margin: auto;
+  padding: 7px 22px 6px 22px;
+}
+.fifth_page_header{
+    font-family: ZCOOL XiaoWei;
+    font-size:55px;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 58px;
+}
+.fifth_page .card_img {
+  padding: 0px 0px;
+  width: 350px;
+  height: 309px;
+  background-size: contain;
+}
+.fifth_page .card {
+  background-color: #1c1a1a;
+  width: 350px;
+  height: auto;
+}
+.by {
+  color: #eab665;
+  font-size: 14px;
+  line-height: 26px;
+}
+.adress{
+    font-size: 14px;
+    line-height: 26px;
+}
+.fifth_page .card_text {
+  margin-top: 19px;
+  margin-bottom: 19px;
+  color: white;
+}
+.fifth_page .name {
+  line-height: 30px;
+  font-family: ZCOOL XiaoWei;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.fifth_page .prise {
+  color: #eab665;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Open Sans;
+}
