@@ -679,7 +679,7 @@ form select {
 
 .left .box_left {
   width: 50%;
-  background-color: #374151;
+  background-color: rgb(22, 22, 22);
   border-radius: 15px 0 0 15px;
   padding: 45px;
   display: flex;
@@ -688,7 +688,7 @@ form select {
 
 .left .box_right {
   width: 50%;
-  background-color: #1F2937;
+  background-color: #212529;
   border-radius: 0 15px 15px 0;
   padding: 45px;
 }
@@ -715,7 +715,7 @@ form select {
 }
 
 .project_title {
-  color: #F9FAFB;
+  color: chartreuse;
   font-size: 20px;
   line-height: 28px;
   font-weight: 500;
@@ -738,7 +738,7 @@ form select {
 }
 
 .tag {
-  background-color: #374151;
+  background-color: rgb(121, 121, 121);
   color: #D1D5DB;
   font-size: 14px;
   line-height: 20px;
